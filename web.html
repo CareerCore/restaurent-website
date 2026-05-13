@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tandoori Restaurants | Since 1993</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet"/> //fonts
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>//fonts stylings 
+</head>
+<body>
+
+  <!--  NAVBAR  -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <div class="logo">
+        <span class="logo-icon">🍛</span>
+        <div class="logo-text">
+          <h1>Tandoori</h1>
+          <p>Restaurants & Caterers</p>
+        </div>
+      </div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#branches">Branches</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#contact" class="nav-btn">Order Now</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!--  HERO SECTION  -->
+  <section class="hero" id="home">
+    <div class="hero-overlay"></div>
+    <div class="hero-content animate-on-scroll">
+      <p class="hero-tag">Since 1993 — Islamabad's Finest</p>
+      <h1>Authentic Taste.<br/>Timeless Tradition.</h1>
+      <p class="hero-sub">Experience the rich flavors of Desi, BBQ, Chinese & Continental cuisine crafted with passion and served with love.</p>
+      <div class="hero-btns">
+        <a href="#menu" class="btn btn-primary">Explore Menu</a>
+        <a href="#about" class="btn btn-outline">Our Story</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span></span>
+      <p>Scroll Down</p>
+    </div>
+  </section>
+
+  <!--  ANNOUNCEMENT BAR  -->
+  <div class="announcement-bar">
+    <i class="fas fa-motorcycle"></i>
+    <span>We are Open for Takeout & Curbside Pickup — <strong>Enjoy Fresh Food from Home!</strong></span>
+    <i class="fas fa-pepper-hot"></i>
+  </div>
+
+  <!--  ABOUT SECTION  -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-img animate-on-scroll">
+          <div class="img-box">
+            <img src="https://images.unsplash.com/photo-1517244683847-7456b63c5969?w=600&q=80" alt="Restaurant Interior"/>
+            <div class="exp-badge">
+              <span>30+</span>
+              <p>Years of Excellence</p>
+            </div>
+          </div>
+        </div>
+        <div class="about-text animate-on-scroll">
+          <span class="section-tag">Our Story</span>
+          <h2>Celebrating <span>30 Years</span> of Authentic Flavors</h2>
+          <p>Tandoori was first established in <strong>1993</strong> in Islamabad. We started with zeal and still serve with the same enthusiasm. Our devotion makes our vision broader and our hard work makes our food legendary.</p>
+          <p>From our humble beginnings at G-8 Markaz to multiple branches across Islamabad, we've been serving thousands of families with clean environment, top-quality ingredients, and unforgettable taste.</p>
+          <div class="about-stats">
+            <div class="stat">
+              <h3>30+</h3>
+              <p>Years Experience</p>
+            </div>
+            <div class="stat">
+              <h3>5+</h3>
+              <p>Branches</p>
+            </div>
+            <div class="stat">
+              <h3>50K+</h3>
+              <p>Happy Customers</p>
+            </div>
+            <div class="stat">
+              <h3>100+</h3>
+              <p>Menu Items</p>
+            </div>
+          </div>
+          <a href="#menu" class="btn btn-primary">View Our Menu</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--  FEATURES SECTION  -->
+  <section class="features">
+    <div class="container">
+      <div class="features-grid">
+        <div class="feature-card animate-on-scroll">
+          <div class="feature-icon"><i class="fas fa-utensils"></i></div>
+          <h3>Authentic Desi Cuisine</h3>
+          <p>Traditional recipes passed down through generations, made fresh daily with premium halal ingredients.</p>
+        </div>
+        <div class="feature-card animate-on-scroll">
+          <div class="feature-icon"><i class="fas fa-broom"></i></div>
+          <h3>Clean Environment</h3>
+          <p>We maintain the highest standards of hygiene and cleanliness in all our kitchen and dining areas.</p>
+        </div>
+        <div class="feature-card animate-on-scroll">
+          <div class="feature-icon"><i class="fas fa-fire-flame-curved"></i></div>
+          <h3>Tandoor & BBQ Experts</h3>
+          <p>Our tandoor specialists have mastered the art of clay-oven cooking — the true taste of South Asia.</p>
+        </div>
+        <div class="feature-card animate-on-scroll">
+          <div class="feature-icon"><i class="fas fa-people-group"></i></div>
+          <h3>Catering Services</h3>
+          <p>We offer full-scale catering for weddings, corporate events, and family gatherings across Islamabad.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--  MENU SECTION  -->
+  <section class="menu-section" id="menu">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-tag">Our Specialties</span>
+        <h2>Explore Our <span>Menu</span></h2>
+        <p>Handcrafted with the finest ingredients — from sizzling BBQ to rich curries and beyond.</p>
+      </div>
+      <div class="menu-tabs">
+        <button class="tab-btn active" data-tab="desi">Desi</button>
+        <button class="tab-btn" data-tab="bbq">BBQ</button>
+        <button class="tab-btn" data-tab="chinese">Chinese</button>
+        <button class="tab-btn" data-tab="continental">Continental</button>
+      </div>
+      <div class="menu-grid" id="menuGrid">
+        <!-- Injected by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!--  GALLERY SECTION  -->
+  <section class="gallery-section" id="gallery">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-tag">Visual Feast</span>
+        <h2>Our <span>Gallery</span></h2>
+        <p>A glimpse into our world of flavors, ambiance, and culinary art.</p>
+      </div>
+      <div class="gallery-grid animate-on-scroll">
+        <div class="gallery-item large">
+          <img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800&q=80" alt="Tandoori Chicken"/>
+          <div class="gallery-overlay"><span>Tandoori Chicken</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1631452180539-96aca7d48617?w=400&q=80" alt="BBQ Platter"/>
+          <div class="gallery-overlay"><span>BBQ Platter</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=400&q=80" alt="Desi Curry"/>
+          <div class="gallery-overlay"><span>Desi Curry</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=400&q=80" alt="Fresh Naan"/>
+          <div class="gallery-overlay"><span>Fresh Naan</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1574484284002-952d92456975?w=400&q=80" alt="Biryani"/>
+          <div class="gallery-overlay"><span>Special Biryani</span></div>
+        </div>
+        <div class="gallery-item large">
+          <img src="https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=800&q=80" alt="Restaurant Interior"/>
+          <div class="gallery-overlay"><span>Our Ambiance</span></div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <!--  BRANCHES SECTION  -->
+  <section class="branches" id="branches">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-tag">Find Us</span>
+        <h2>Our <span>Branches</span></h2>
+        <p>Visit us at any of our convenient locations across Islamabad.</p>
+      </div>
+      <div class="branches-grid">
+        <div class="branch-card animate-on-scroll">
+          <div class="branch-icon"><i class="fas fa-map-marker-alt"></i></div>
+          <h3>Tandoori G-8</h3>
+          <p>20-A Jasmine Plaza, G-8 Markaz, Islamabad</p>
+          <a href="#" class="branch-link">Get Directions <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="branch-card animate-on-scroll">
+          <div class="branch-icon"><i class="fas fa-map-marker-alt"></i></div>
+          <h3>Tandoori F-10</h3>
+          <p>Khursheed Market, F-10/1, Islamabad</p>
+          <a href="#" class="branch-link">Get Directions <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="branch-card animate-on-scroll">
+          <div class="branch-icon"><i class="fas fa-map-marker-alt"></i></div>
+          <h3>Tandoori PWD</h3>
+          <p>Block B, Police Foundation, Plot #384, Islamabad</p>
+          <a href="#" class="branch-link">Get Directions <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="branch-card animate-on-scroll">
+          <div class="branch-icon"><i class="fas fa-map-marker-alt"></i></div>
+          <h3>Tandoori DHA</h3>
+          <p>Giga Mall, World Trade Center, DHA Phase-II, GT Road</p>
+          <a href="#" class="branch-link">Get Directions <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--  CONTACT SECTION  -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info animate-on-scroll">
+          <span class="section-tag">Get In Touch</span>
+          <h2>Contact <span>Us</span></h2>
+          <p>Have a question or want to place a catering order? Reach out to us anytime!</p>
+          <div class="info-item">
+            <i class="fas fa-phone"></i>
+            <div>
+              <h4>Phone</h4>
+              <p>+92 26 8564727</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <h4>Email</h4>
+              <p>info@tandoorirestaurants.pk</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-clock"></i>
+            <div>
+              <h4>Hours</h4>
+              <p>Daily: 11:00 AM – 11:00 PM</p>
+            </div>
+          </div>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+        <div class="contact-form animate-on-scroll">
+          <form id="contactForm">
+            <div class="form-group">
+              <input type="text" placeholder="Your Name" required />
+            </div>
+            <div class="form-group">
+              <input type="email" placeholder="Your Email" required />
+            </div>
+            <div class="form-group">
+              <input type="tel" placeholder="Phone Number" />
+            </div>
+            <div class="form-group">
+              <select>
+                <option value="">Select Branch</option>
+                <option>Tandoori G-8</option>
+                <option>Tandoori F-10</option>
+                <option>Tandoori PWD</option>
+                <option>Tandoori DHA</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <textarea rows="5" placeholder="Your Message or Order Details..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary full-width">Send Message <i class="fas fa-paper-plane"></i></button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--  FOOTER  -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo">
+            <span class="logo-icon">🍛</span>
+            <div class="logo-text">
+              <h1>Tandoori</h1>
+              <p>Restaurants & Caterers</p>
+            </div>
+          </div>
+          <p>Serving authentic Pakistani flavors since 1993. Where tradition meets taste.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Our Branches</h4>
+          <ul>
+            <li><a href="#">G-8 Markaz</a></li>
+            <li><a href="#">F-10 Islamabad</a></li>
+            <li><a href="#">PWD Islamabad</a></li>
+            <li><a href="#">DHA Giga Mall</a></li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <h4>Follow Us</h4>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+          </div>
+          <p class="footer-note">Join us on social networks</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Tandoori Restaurants & Caterers. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" id="backToTop"><i class="fas fa-chevron-up"></i></button>
+
+   <script src="main.js"></script> 
+</body>
+</html>
